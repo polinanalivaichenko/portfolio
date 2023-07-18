@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Lato-Light.ttf") format("truetype");
+    font-weight: 400;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.header-logo {
+    margin-top: 15px;
+    font-family:"Roboto", sans-serif;
+    color: #272832;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 33px; /* 132% */
+    width: 700px;
+}
+.main-hero {
+    width: 100%;
+    height: 540px;
+    display: block;
+    padding-top: 170px;
+    margin-bottom: 78px;
+}
+.main-hero__content {
+    position: absolute;
+    z-index: 2;
+}
+.main-hero__content-title{
+   color: #fff;
+   font-family: "Roboto", sans-serif;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 44px;
+}
+.main-hero__content-buttons{
+   display: flex;
+   margin-top: 43px;
+   text-align: center;
+}
+.main-hero__content-buttonn{
+   color: #FFF;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   line-height: 50px; /* 117.647% */
+   width: 166px;
+   height: 56px;
+   flex-shrink: 0;
+   border: 2px solid #fff;
+   margin-right: 14px;
+}
+.main-hero__content-button {
+    color: #FFF;
+    font-family:"Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: capitalize;
+    width: 119px;
+    height: 56px;
+    flex-shrink: 0;
+    border: 2px solid #FFF;
+    line-height: 50px;/* 111.111% */
+}
+.skills {
+    display: flex;
+    column-gap: 165px;
+}
+
+.skills-title {
+   display: flex;
+   width: 144px;
+   height: 100%;
+   flex-wrap: nowrap;
+   color: #696969;
+   font-family:"Roboto", sans-serif;
+   font-size: 31px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 36px; /* 116.129% */
+}
+
+.skills-column {
+    height: 620px;
+}
+.skills-column__text {
+    color: #696969;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.skills-content__column-block__one-text {
+    margin-top: 16px;
+    color: #666;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    text-transform: uppercase;
+}
